@@ -1,8 +1,10 @@
 {
   "name": "Simulador PNP",
   "short_name": "Simulador PNP",
+  "description": "Simulador de examen de conocimientos para el ascenso de Suboficiales PNP.",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "id": "/",
@@ -38,5 +40,4 @@
       "label": "Simulador PNP Mobile"
     }
   ]
-}
 }
