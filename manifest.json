@@ -16,22 +16,56 @@
     { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
-"screenshots": [
-  {
-    "src": "screenshots/desktop.png",
-    "sizes": "1280x720",
-    "type": "image/png",
-    "form_factor": "wide",
-    "label": "Pantalla principal en escritorio"
-  },
-  {
-    "src": "screenshots/mobile.png",
-    "sizes": "750x1334",
-    "type": "image/png",
-    "form_factor": "narrow",
-    "label": "Pantalla principal en móvil"
-  }
-]
-"id": "/simulador-pnp/"
-"categories": ["education", "utilities"]
-"prefer_related_applications": false
+{
+  "name": "Simulador PNP",
+  "short_name": "Simulador PNP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "id": "/",
+  "categories": ["education", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Simulador PNP"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Simulador PNP Mobile"
+    }
+  ]
+}
